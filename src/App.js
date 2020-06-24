@@ -9,9 +9,10 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Navigation></Navigation>
-      <Sidebar2></Sidebar2>
+      
+      
             <div className="container">
+            <h1>WEATHER APP</h1>
             <Grafica2></Grafica2>
             </div>   
       

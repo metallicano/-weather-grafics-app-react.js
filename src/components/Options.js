@@ -4,7 +4,7 @@ export const options= {
                      display: true,
                      scaleLabel: {
                          display: true,
-                         labelString: 'X DATA',
+                         labelString: 'Samples',
                          fontColor:'#000000',
                          fontSize:20
                      },
@@ -17,7 +17,7 @@ export const options= {
                      display: true,
                      scaleLabel: {
                          display: true,
-                         labelString: 'Y DATA',
+                         labelString: 'Temp ºC',
                          fontColor: '#000000',
                          fontSize:20
                      },

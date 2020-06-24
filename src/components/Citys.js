@@ -15,8 +15,10 @@ export default function Citys(props) {
             <form className="form-group" onSubmit={handleSubmit(onSubmit)} > 
                 <select className="form-control mb-2" name="place" ref={register}>
                     <option>Bogota</option>
-                    <option> London</option>
-                    <option> Soacha</option>
+                    <option>London</option>
+                    <option>Soacha</option>
+                    <option>Mexico</option>
+                    <option>Bucaramanga</option>
                 </select>
                 
                 <button className="btn btn-outline-dark">Select Location</button>
