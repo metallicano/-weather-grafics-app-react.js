@@ -48,7 +48,7 @@ export default function Grafica2() {
 
 
   const fetchWeather = async () => {
-    const res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9c522b92a13cba127c9b88450c5f8de4&units=metric`)
+    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=9c522b92a13cba127c9b88450c5f8de4&units=metric`)
     const res_json = await res.json()
     console.log('las variables son',res_json)
     setclima(clima=>res_json.main)
